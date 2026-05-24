@@ -1,0 +1,69 @@
+* {
+}
+
+.gray-bg {
+  background: #f8fafc;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 18px;
+  border: 1px solid #ddd;
+}
+
+.pricing-table th {
+  background: #1565d8;
+  color: white;
+}
+
+.site-footer {
+  background: #0f3d91;
+  color: white;
+  padding: 60px 0 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+  opacity: 0.8;
+}
+
+@media(max-width: 768px) {
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .nav-links {
+    gap: 15px;
+    font-size: 14px;
+  }
+
+  .two-column {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
