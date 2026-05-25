@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>
+    Lavandería en Somerville NJ | Somerville Express Wash
+  </title>
+
+  <meta name="description"
+        content="Lavandería moderna en Somerville NJ con lavadoras rápidas, secadoras calientes y servicio de lavado y doblado. Abierto los 365 días del año.">
+
+  <meta name="keywords"
+        content="lavandería Somerville NJ, lavado y doblado Somerville, lavandería cerca de mí, lavandería autoservicio">
+
+  <meta name="robots"
+        content="index, follow, max-image-preview:large">
+
+  <!-- Canonical -->
+
+  <link rel="canonical"
+        href="https://somervillewash.com/es/">
+
+  <!-- Hreflang -->
+
+  <link rel="alternate"
+        hreflang="es"
+        href="https://somervillewash.com/es/">
+
+  <link rel="alternate"
+        hreflang="en"
+        href="https://somervillewash.com/">
+
+  <!-- Open Graph -->
+
+  <meta property="og:type"
+        content="website">
+
+  <meta property="og:title"
+        content="Lavandería en Somerville NJ | Somerville Express Wash">
+
+  <meta property="og:description"
+        content="Lavandería moderna en Somerville NJ con servicio de lavado y doblado y secadoras calientes.">
+
+  <meta property="og:url"
+        content="https://somervillewash.com/es/">
+
+  <meta property="og:site_name"
+        content="Somerville Express Wash">
+
+  <meta property="og:image"
+        content="https://somervillewash.com/assets/images/hero-laundry.jpg">
+
+  <!-- Twitter -->
+
+  <meta name="twitter:card"
+        content="summary_large_image">
+
+  <meta name="twitter:title"
+        content="Lavandería en Somerville NJ">
+
+  <meta name="twitter:description"
+        content="Lavandería moderna y rápida en Somerville NJ.">
+
+  <meta name="twitter:image"
+        content="https://somervillewash.com/assets/images/hero-laundry.jpg">
+
+  <!-- Theme -->
+
+  <meta name="theme-color"
+        content="#1565d8">
+
+  <!-- Schema -->
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "url":"https://somervillewash.com/es/",
+    "name":"Somerville Express Wash"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"DryCleaningOrLaundry",
+
+    "name":"Somerville Express Wash",
+
+    "image":"https://somervillewash.com/assets/images/hero-laundry.jpg",
+
+    "@id":"https://somervillewash.com/es/",
+
+    "url":"https://somervillewash.com/es/",
+
+    "telephone":"+1-908-393-7171",
+
+    "priceRange":"$",
+
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"20 Division St",
+      "addressLocality":"Somerville",
+      "addressRegion":"NJ",
+      "postalCode":"08876",
+      "addressCountry":"US"
+    },
+
+    "geo":{
+      "@type":"GeoCoordinates",
+      "latitude":40.5682224,
+      "longitude":-74.6131174
+    },
+
+    "openingHoursSpecification":[
+      {
+        "@type":"OpeningHoursSpecification",
+        "dayOfWeek":[
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens":"07:00",
+        "closes":"21:30"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #1f2937;
+      line-height: 1.7;
+      background: #ffffff;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background: #ffffff;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+
+    .nav-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      color: #1565d8;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 28px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #1f2937;
+      font-weight: 600;
+    }
+
+    .hero {
+      min-height: 90vh;
+      background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url('../assets/images/hero-laundry.jpg');
+
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero-content {
+      width: 100%;
+    }
+
+    .hero h1 {
+      font-size: 60px;
+      margin-bottom: 25px;
+    }
+
+    .hero p {
+      font-size: 22px;
+      margin-bottom: 35px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+      display: inline-block;
+      padding: 16px 34px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background: #1565d8;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: white;
+      color: #1565d8;
+    }
+
+    .section {
+      padding: 90px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .section-title h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+      color: #0f3d91;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 35px;
+    }
+
+    .feature-card {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .feature-card img {
+      height: 240px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .feature-content {
+      padding: 28px;
+    }
+
+    .feature-content h3 {
+      margin-bottom: 15px;
+      color: #1565d8;
+    }
+
+    .gray-bg {
+      background: #f8fafc;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .rounded-image {
+      border-radius: 18px;
+    }
+
+    .pricing-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .pricing-table th {
+      background: #1565d8;
+      color: white;
+      padding: 20px;
+    }
+
+    .pricing-table td {
+      padding: 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .gallery-grid img {
+      border-radius: 14px;
+      height: 280px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .contact-box {
+      background: white;
+      padding: 50px;
+      border-radius: 16px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .site-footer {
+      background: #0f3d91;
+      color: white;
+      padding: 70px 0 30px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+    }
+
+    .copyright {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .phone-link {
+      color: #1565d8;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    @media(max-width: 768px) {
+
+      .nav-wrapper {
+        flex-direction: column;
+      }
+
+      .hero h1 {
+        font-size: 42px;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+      }
+
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<p>
+
+  Llámenos:
+
+  <a href="tel:19083937171"
+     class="phone-link">
+
+     908-393-7171
+
+  </a>
+
+</p>
+
+<header class="site-header">
+
+  <div class="container nav-wrapper">
+
+    <div class="logo">
+      Somerville Express Wash
+    </div>
+
+    <ul class="nav-links">
+
+      <li><a href="#home">Inicio</a></li>
+
+      <li><a href="#services">Servicios</a></li>
+
+      <li><a href="#pricing">Precios</a></li>
+
+      <li><a href="#gallery">Galería</a></li>
+
+      <li><a href="#faq">Preguntas</a></li>
+
+      <li><a href="#contact">Ubicación</a></li>
+
+      <li><a href="/">English</a></li>
+
+    </ul>
+
+  </div>
+
+</header>
+
+<section class="hero" id="home">
+
+  <div class="container hero-content">
+
+    <h1>
+      Lavandería Moderna en Somerville, NJ
+    </h1>
+
+    <p>
+      Lavadoras Rápidas • Secadoras Calientes • Lavado y Doblado • Abierto los 365 Días
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="tel:9083937171" class="btn-primary">
+        Llame Ahora
+      </a>
+
+      <a href="#contact" class="btn-secondary">
+        Visítenos
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section" id="services">
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>Nuestros Servicios</h2>
+
+      <p>
+        Lavandería limpia, moderna y económica en Somerville NJ.
+      </p>
+
+    </div>
+
+    <div class="feature-grid">
+
+      <div class="feature-card">
+
+        <img src="../assets/images/modern-washers.jpg"
+             alt="Lavadoras modernas en Somerville">
+
+        <div class="feature-content">
+
+          <h3>Lavadoras Rápidas</h3>
+
+          <p>
+            Lavadoras modernas diseñadas para limpiar ropa rápidamente y eficientemente.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="feature-card">
+
+        <img src="../assets/images/clean-dryers.jpg"
+             alt="Secadoras calientes">
+
+        <div class="feature-content">
+
+          <h3>Secadoras Calientes</h3>
+
+          <p>
+            Secadoras potentes que ayudan a terminar la ropa rápidamente.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="feature-card">
+
+        <img src="../assets/images/wash-fold-service.jpg"
+             alt="Servicio de lavado y doblado">
+
+        <div class="feature-content">
+
+          <h3>Lavado y Doblado</h3>
+
+          <p>
+            Deje su ropa y recójala limpia y doblada después de las 5 PM.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section gray-bg" id="pricing">
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>Precios</h2>
+
+      <p>
+        Precios económicos para lavandería autoservicio.
+      </p>
+
+    </div>
+
+    <table class="pricing-table">
+
+      <thead>
+
+        <tr>
+          <th>Servicio</th>
+          <th>Precio</th>
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td>Máquinas de 20 Libras</td>
+          <td>$3.25</td>
+        </tr>
+
+        <tr>
+          <td>Máquinas de 30 Libras</td>
+          <td>$4.25</td>
+        </tr>
+
+        <tr>
+          <td>Máquinas de 40 Libras</td>
+          <td>$6.00</td>
+        </tr>
+
+        <tr>
+          <td>Secadora</td>
+          <td>25 Centavos por 7 Minutos</td>
+        </tr>
+
+        <tr>
+          <td>Secadora Grande</td>
+          <td>25 Centavos por 5 Minutos</td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</section>
+
+<section class="section gray-bg" id="gallery">
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>Galería</h2>
+
+      <p>
+        Vea nuestras modernas instalaciones de lavandería.
+      </p>
+
+    </div>
+
+    <div class="gallery-grid">
+
+      <img src="../assets/images/hero-laundry.jpg"
+           alt="Lavandería en Somerville">
+
+      <img src="../assets/images/laundry-interior.jpg"
+           alt="Interior de lavandería">
+
+      <img src="../assets/images/modern-washers.jpg"
+           alt="Lavadoras modernas">
+
+      <img src="../assets/images/clean-dryers.jpg"
+           alt="Secadoras limpias">
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section gray-bg" id="faq">
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>
+        Preguntas Frecuentes sobre Somerville Express Wash en Somerville, Nueva Jersey
+      </h2>
+
+    </div>
+
+    <div class="faq-item">
+
+      <h3>
+        ¿Cuál es el horario de la lavandería?
+      </h3>
+
+      <p>
+        Estamos abiertos los 365 días del año de 7:00 AM a 9:30 PM.
+      </p>
+
+    </div>
+
+    <div class="faq-item">
+
+      <h3>
+        ¿Ofrecen servicio de lavado y doblado?
+      </h3>
+
+      <p>
+        Sí. Puede dejar su ropa en cualquier momento y recogerla después de las 5 PM.
+      </p>
+
+    </div>
+
+    <div class="faq-item">
+
+      <h3>
+        ¿Dónde están ubicados?
+      </h3>
+
+      <p>
+        20 Division St, Somerville NJ 08876.
+      </p>
+
+    </div>
+
+    <div class="faq-item">
+
+      <h3>
+        ¿Somerville Express Wash tiene acceso para sillas de ruedas?
+      </h3>
+
+      <p>
+        Sí. Somerville Express Wash ofrece acceso para sillas de ruedas para garantizar una experiencia cómoda para todos los clientes.
+      </p>
+
+    </div>
+
+    <div class="faq-item">
+
+      <h3>
+        ¿Hay estacionamiento disponible en la lavandería?
+      </h3>
+
+      <p>
+        Sí. Hay estacionamiento limitado dentro de nuestro edificio. También hay estacionamiento público convenientemente ubicado detrás de la lavandería y generalmente hay espacios disponibles.
+      </p>
+
+    </div>
+
+    <div class="faq-item">
+
+      <h3>
+        ¿Hay máquinas expendedoras dentro de la lavandería?
+      </h3>
+
+      <p>
+        Sí. Nuestra lavandería ofrece máquinas expendedoras con agua, refrescos y bocadillos para la comodidad de nuestros clientes. Próximamente también ofreceremos café.
+      </p>
+
+    </div>
+
+    <div class="faq-item">
+
+      <h3>
+        ¿Hay un cajero automático dentro de la lavandería?
+      </h3>
+
+      <p>
+        Sí. Hay un cajero automático disponible dentro de Somerville Express Wash para la comodidad de nuestros clientes.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section gray-bg">
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>
+        Sirviendo Somerville y Comunidades Cercanas de Nueva Jersey
+      </h2>
+
+      <p>
+        Somerville Express Wash atiende con orgullo a clientes de Somerville y de las comunidades cercanas del centro de Nueva Jersey con lavandería moderna de autoservicio y servicio de lavado y doblado.
+      </p>
+
+    </div>
+
+    <div class="service-area-wrapper">
+
+      <ul class="service-area-list">
+
+        <li>Somerville, NJ</li>
+
+        <li>Bridgewater, NJ</li>
+
+        <li>Bound Brook, NJ</li>
+
+        <li>Raritan, NJ</li>
+
+        <li>Hillsborough, NJ</li>
+
+        <li>Manville, NJ</li>
+
+        <li>Branchburg, NJ</li>
+
+        <li>Finderne, NJ</li>
+
+        <li>Green Brook, NJ</li>
+
+        <li>Warren, NJ</li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+<section class="section" id="contact">
+
+  <div class="container">
+
+    <div class="contact-box">
+
+      <h2>
+        Visite Somerville Express Wash
+      </h2>
+
+      <p>
+
+        <strong>Teléfono:</strong>
+
+        <a href="tel:19083937171"
+           class="phone-link">
+
+           908-393-7171
+
+        </a>
+
+      </p>
+
+      <p>
+        <strong>Dirección:</strong><br>
+        20 Division St<br>
+        Somerville NJ 08876
+      </p>
+
+      <p>
+        <strong>Horario:</strong><br>
+        Abierto los 365 días<br>
+        7:00 AM – 9:30 PM
+      </p>
+
+      <p>
+        <strong>Lavado y Doblado:</strong><br>
+        Deje la ropa en cualquier momento y recójala después de las 5 PM.
+      </p>
+
+      <br>
+
+      <a href="tel:9083937171"
+         class="btn-primary">
+
+         Llame Ahora
+
+      </a><BR>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96986.05748062441!2d-74.76584930273437!3d40.56777799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3954b00a2ad6b%3A0x2be44ab82489bf88!2sSomerville%20Express%20Wash%20Laundry!5e0!3m2!1sen!2sus!4v1779663866463!5m2!1sen!2sus" 
+	  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+  </div>
+
+</section>
+
+<footer class="site-footer">
+
+  <div class="container footer-grid">
+
+    <div>
+
+      <h3>Somerville Express Wash</h3>
+
+      <p>
+        Lavandería moderna autoservicio en Somerville NJ.
+      </p>
+
+    </div>
+
+    <div>
+
+      <h4>Contacto</h4>
+
+      <p>908-393-7171</p>
+
+      <p>20 Division St, Somerville NJ 08876</p>
+
+    </div>
+
+    <div>
+
+      <h4>Horario</h4>
+
+      <p>Abierto los 365 días</p>
+
+      <p>7:00 AM – 9:30 PM</p>
+
+    </div>
+
+  </div>
+
+  <div class="copyright">
+
+    © 2026 Somerville Express Wash
+
+  </div>
+
+</footer>
+
+</body>
+</html>

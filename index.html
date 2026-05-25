@@ -26,6 +26,13 @@
 	        href="https://somervillewash.com/">
 
 	  <!-- Open Graph -->
+	  <link rel="alternate"
+	         hreflang="es"
+	         href="https://somervillewash.com/es/">
+
+	   <link rel="alternate"
+	         hreflang="en"
+	         href="https://somervillewash.com/">
 
 	  <meta property="og:type"
 	        content="website">
@@ -609,6 +616,45 @@
 	  .phone-link:hover {
 	    text-decoration: underline;
 	  }
+	  
+	  .service-area-wrapper {
+	    margin-top: 40px;
+	    display: flex;
+	    justify-content: center;
+	  }
+
+	  .service-area-list {
+	    columns: 2;
+	    column-gap: 80px;
+	    list-style: none;
+	    padding: 0;
+	    margin: 0;
+	  }
+
+	  .service-area-list li {
+	    position: relative;
+	    padding-left: 28px;
+	    margin-bottom: 18px;
+	    font-size: 18px;
+	    color: #1f2937;
+	    font-weight: 500;
+	  }
+
+	  .service-area-list li::before {
+	    content: "✓";
+	    position: absolute;
+	    left: 0;
+	    color: #1565d8;
+	    font-weight: bold;
+	  }
+
+	  @media(max-width: 768px) {
+
+	    .service-area-list {
+	      columns: 1;
+	    }
+
+	  }
     </style>
 
   </head>
@@ -650,6 +696,8 @@
 
 
         <li><a href="#contact">Location</a></li>
+
+		<li><a href="/es/"> Español</a></li>
 
       </ul>
 
@@ -1067,7 +1115,7 @@
 
           Call 908-393-7171
 
-        </a>
+        </a><BR>
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96986.05748062441!2d-74.76584930273437!3d40.56777799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3954b00a2ad6b%3A0x2be44ab82489bf88!2sSomerville%20Express%20Wash%20Laundry!5e0!3m2!1sen!2sus!4v1779663866463!5m2!1sen!2sus" 
 		width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 

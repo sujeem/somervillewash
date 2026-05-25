@@ -1,12 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+    xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="https://www.w3.org/1999/xhtml">
+
+  <!-- English Homepage -->
 
   <url>
-    <loc>https://somervillewash.com/</loc>
+
+    <loc>
+      https://somervillewash.com/
+    </loc>
+
     <lastmod>2026-05-24</lastmod>
+
     <changefreq>weekly</changefreq>
+
     <priority>1.0</priority>
+
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="https://somervillewash.com/" />
+
+    <xhtml:link
+        rel="alternate"
+        hreflang="es"
+        href="https://somervillewash.com/es/" />
+
+  </url>
+
+  <!-- Spanish Homepage -->
+
+  <url>
+
+    <loc>
+      https://somervillewash.com/es/
+    </loc>
+
+    <lastmod>2026-05-24</lastmod>
+
+    <changefreq>weekly</changefreq>
+
+    <priority>0.9</priority>
+
+    <xhtml:link
+        rel="alternate"
+        hreflang="es"
+        href="https://somervillewash.com/es/" />
+
+    <xhtml:link
+        rel="alternate"
+        hreflang="en"
+        href="https://somervillewash.com/" />
+
   </url>
 
 </urlset>
